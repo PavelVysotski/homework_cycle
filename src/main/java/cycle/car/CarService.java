@@ -21,6 +21,9 @@ public class CarService {
         if (testCar.getCurrentSpeed() > targetSpeed) {
             for (int i = testCar.getCurrentSpeed(); i >= targetSpeed; i--) {
                 testCar.setCurrentSpeed(i);
+                if (testCar.getCurrentSpeed() < 0) {
+                    break;
+                }
                 System.out.println(testCar.getCurrentSpeed());
             }
         }
@@ -29,22 +32,22 @@ public class CarService {
         }
     }
 
-    public static boolean isDriving (Car testCar) {
-        if (testCar.getCurrentSpeed()>0){
+    public static boolean isDriving(Car testCar) {
+        if (testCar.getCurrentSpeed() > 0) {
             return true;
         }
         return false;
     }
 
-    public static boolean isStopped (Car testCar) {
-        if (testCar.getCurrentSpeed()==0){
+    public static boolean isStopped(Car testCar) {
+        if (testCar.getCurrentSpeed() == 0) {
             return true;
         }
         return false;
     }
 
-    public static boolean canAccelerate (Car testCar){
-        if (testCar.getCurrentSpeed()<testCar.getMaxSpeed()){
+    public static boolean canAccelerate(Car testCar) {
+        if (testCar.getCurrentSpeed() < testCar.getMaxSpeed()) {
             return true;
         }
         return false;

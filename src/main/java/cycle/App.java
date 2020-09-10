@@ -27,7 +27,7 @@ public class App {
 
         Car testCar = new Car("Volvo", "black", 220, 60);
 //        CarService.accelerate(testCar, 80);
-//        CarService.decelerate(testCar, 50);
+//        CarService.decelerate(testCar, -10);
 //        System.out.println(CarService.isDriving(testCar));
 //        System.out.println(CarService.isStopped(testCar));
 //        System.out.println(CarService.canAccelerate(testCar));
