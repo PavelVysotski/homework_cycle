@@ -12,7 +12,7 @@ public class CarService {
                 System.out.println(testCar.getCurrentSpeed());
             }
         }
-        if (testCar.getCurrentSpeed() > targetSpeed) {
+        if (targetSpeed < testCar.getCurrentSpeed()) {
             System.out.println("Заданная скорость меньше текущей.");
         }
     }
