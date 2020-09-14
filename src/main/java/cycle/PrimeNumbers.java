@@ -21,6 +21,8 @@ public class PrimeNumbers {
                 }
             }
         }
+        System.out.println();
+        System.out.println("Количество простых чисел равно: " + countPrime);
         return sum;
     }
 }

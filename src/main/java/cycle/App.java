@@ -15,8 +15,8 @@ public class App {
 //        System.out.println("\nРеализация doWhile:");
 //        DoWhileOddChecker.printOdd();
 
-//        System.out.println("\nРеализация суммы первых 50 простых чисел: ");
-//        System.out.println("\nСумма равна: " + PrimeNumbers.printPrimeSum());
+        System.out.println("\nРеализация суммы первых 50 простых чисел: ");
+        System.out.println("\nСумма равна: " + PrimeNumbers.printPrimeSum());
 
 //        System.out.println("Реализация суммы чисел в диапазоне: ");
 //        int start = 0;
