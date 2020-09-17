@@ -8,11 +8,11 @@ public class Car {
     private int maxSpeed;
     private int currentSpeed;
 
-    public Car(String model, String color, int maxSpeed, int currentSpeed) {
+    public Car(String model, String color, int maxSpeed) {
         this.model = model;
         this.color = color;
         this.maxSpeed = maxSpeed;
-        this.currentSpeed = currentSpeed;
+
     }
 
     public String getModel() {
